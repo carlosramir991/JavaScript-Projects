@@ -98,6 +98,9 @@ function checkWinConditions() {
 
     // X 0, 4, 8 condition.
     else if (arrayIncludes('0X', '4X', '8X')) {drawWinLine(100, 100, 520, 520);}
+    
+
+    else if (arrayIncludes('0O', '1O', '2O')) { drawWinLine(50, 100, 558, 100); }
 
     // X 3, 4, 5 condition.
     else if (arrayIncludes('3O', '4O', '5O')) {drawWinLine(50, 304, 558, 304);}
