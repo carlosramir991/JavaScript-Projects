@@ -1,39 +1,37 @@
 #menuBG {
     width:400px;
-    height:470px;
-    margin:10px auto;
+    height:20px;
+    margin:33px 0px 0px 400px;
 }
 
 #frmMenu {
-    width:800px;
+    width:700px;
     height:200px;
-    display: flex;
-    justify-content: center;
 }
 
 #totalPrice {
     width:200px;
     height:190px;
     margin:0 auto;
+    float:right;
 }
 
 .left {
-    widows: 134px;
+    width: 200px;
     height:200px;
-    padding-right: 20px;
+    float:left;
 }
 
 .right {
-    width:134px;
+    width:200px;
     height:200px;
-    float:right;
-    padding-right: 20px;
+    float:left;
 }
 
 .center {
-    width: 134px;
+    width: 200px;
     height: 400px;
-    padding-right: 20px;
+    float: left;
 }
 
 #showText{
@@ -44,7 +42,7 @@
 }
 
 #cart {
-    top:10px;margin:10px auto;
+    margin: 10px 10px 10px 400px;
     width:400px;
     height:400px;
 }
