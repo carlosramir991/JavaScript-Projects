@@ -5,6 +5,7 @@
     </head>
 
             <script>
+                //This function 'appends' or creates the body of the html.
                 $(document).ready(function(){
                     $("html").append(
                         "<body>\
@@ -18,10 +19,13 @@
                             </div>\
                         </body>"    
                     );
+                    //This makes paragraph 2 red.
                     $("#2").css({"color":"red"});
+                    //This hides the h1 heading when paragraph three is clicked.
                     $("#3").click(function() {
                         $('h1').hide().fade();
                         });
+                    //This reveals the h1 heading when paragraph 1 is clicked.
                     $("#1").click(function(){
                     $('h1').show();
                     });
